@@ -1,0 +1,67 @@
+@startwbs
+title Elektromagnetisches Spektrum
+footer ©2025 Oscar Colin Donnellan
+skinparam shadowing true
+skinparam BackgroundColor #fff/aaf
+<style>
+wbsDiagram {
+  node {
+    BackgroundColor #fff-#aaf
+  }
+  .radio {
+    BackgroundColor #E3F2FD-ffffff
+  }
+  .micro {
+    BackgroundColor #C8E6C9-ffffff
+  }
+  .ir {
+    BackgroundColor #FFF9C4-ffffff
+  }
+  .visible {
+    BackgroundColor #FFB74D-ffffff
+  }
+  .uv {
+    BackgroundColor #FFCCBC-ffffff
+  }
+  .xray {
+    BackgroundColor #fff/blue
+  }
+  .gamma {
+    BackgroundColor #B0BEC5-ffffff
+  }
+}
+</style>
+
+* Eletromagnetisches\nSpektrum
+** Lange Wellenlänge\nWenig Energie
+*** Radio Wellen <<radio>>
+**** Wellenlänge:\nmeter bis km
+**** Energie:\nmilli-eV
+**** nicht ionisierend
+*** Mikrowellen <<micro>>
+**** Wellenlänge:\nmm bis cm
+*** Infrarot <<ir>>
+**** Wellenlänge:\nmikrometer
+** Mittlere Wellenlänge
+*** Sichtbares Licht <<visible>>
+**** 400-700 nm
+**** Menschliche Sicht
+*** Ultraviolet <<uv>>
+**** 10-400 nm
+**** Kann DNA beschädigen
+** Kurze Wellenlänge\nHohe Energie
+*** Röntgenstrahlen <<xray>>
+**** 0.01-10 nm <<xray>>
+**** kilo-eV <<xray>>
+**** **IONIZING** <<xray>>
+*** Gammastrahlen <<gamma>>
+**** < 0.01 nm
+**** mega-eV
+**** **IONISIEREND**
+
+legend bottom
+E = hc/λ
+c = 299,792,458 m/s
+end legend
+
+@endwbs

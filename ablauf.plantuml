@@ -1,0 +1,25 @@
+@@startuml
+title Ablauf medizinisches Röntgen
+footer ©2025 Oscar Colin Donnellan
+skinparam shadowing true
+skinparam BackgroundColor #fff/aaf
+skinparam participantBackgroundColor #fff/aaf
+hide footbox
+
+participant "Kathode" as kathode
+participant "Heizfaden" as heizfaden
+participant "Fokussierkappe" as fokussierkappe
+participant "Anode" as anode
+participant "Filter" as filter
+participant "Kollimator" as kollimator
+participant "Blende" as blende
+participant "Objekt" as objekt
+participant "Detektor" as detektor
+participant "Computer" as computer
+
+kathode -> anode : Elektronenstrahl
+anode -> objekt : Röntgenstrahlung
+objekt -> detektor : Abschwächung der Strahlung
+detektor -> computer : Bildverarbeitung
+
+@@enduml

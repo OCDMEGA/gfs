@@ -1,0 +1,63 @@
+<svg width="900" height="350" viewBox="0 0 900 350"
+xmlns="http://www.w3.org/2000/svg"
+font-family="Arial, Helvetica, sans-serif">
+
+<!-- Background -->
+<defs>
+	<linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+		<stop offset="0%" stop-color="#afafff"/>
+		<stop offset="100%" stop-color="#ffffff"/>
+	</linearGradient>
+</defs>
+<rect x="0" y="0" width="900" height="350" fill="url(#bgGradient)"/>
+
+<!-- Labels -->
+<style>
+.label { font-size: 14px; fill: #000; }
+.small { font-size: 12px; fill: #000; }
+</style>
+
+<!-- Cathode -->
+<rect x="40" y="130" width="80" height="90" fill="#e0e0e0" stroke="#000"/>
+<text x="55" y="125" class="label">Kathode</text>
+<text x="45" y="245" class="small">Heizfaden</text>
+<text x="45" y="260" class="small">Fokussierkappe</text>
+
+<!-- Electron beam -->
+<line x1="120" y1="175" x2="300" y2="175"
+stroke="#0077cc" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="170" y="160" class="small" fill="#0077cc">Elektronenstrahl</text>
+
+<!-- Anode -->
+<polygon points="300,140 350,175 300,210"
+fill="#c0c0c0" stroke="#000"/>
+<text x="285" y="125" class="label">Anode</text>
+<text x="260" y="235" class="small">Brennfleck</text>
+
+<!-- X-ray beam (diverging) -->
+<polygon points="350,175 520,120 520,230"
+fill="#ff0000" fill-opacity="0.15" stroke="red"/>
+
+<!-- Exit window -->
+<rect x="520" y="120" width="10" height="110"
+fill="#aaa" stroke="#000"/>
+<text x="505" y="110" class="small">Austrittsfenster</text>
+
+<!-- Filtration -->
+<rect x="550" y="130" width="15" height="90"
+fill="#d9d9d9" stroke="#000"/>
+<text x="535" y="245" class="small">Filter</text>
+<!-- Collimator --><rect x="600" y="120" width="20" height="110"
+fill="#555" stroke="#000"/><rect x="620" y="145" width="10" height="60"
+fill="white"/><text x="585" y="245" class="small">Kollimator</text>
+<!-- Conditioned X-ray beam --><polygon points="630,175 820,150 820,200"
+fill="#ff0000" fill-opacity="0.35" stroke="red"/><text x="700" y="135" class="label">Geformter Röntgenstrahl</text>
+
+<!-- Arrow definition --><defs>
+<marker id="arrow" markerWidth="10" markerHeight="10"
+refX="8" refY="3" orient="auto">
+<path d="M0,0 L0,6 L9,3 z" fill="#0077cc"/>
+</marker>
+</defs>
+
+</svg>
