@@ -214,4 +214,5 @@ Querschnittbild Röntgenaufnahme:: Eine Methode, welche CT benutzt, um ein 2d Bi
 * link:https://www.physik.uni-wuerzburg.de/ueber-uns/fakultaetsgeschichte/nobelpreistraeger/wilhelm-conrad-roentgen/[]
 
 === Bilder
-* link:https://www.dhm.de/lemo/biografie/wilhelm-conrad-roentgen[]
+* link:https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSKVoSzJAMdSy5d45jP5uRrFRdtfWPDVUzfojwg1GXTYO8E2pbJ2F3nUVjy93ldi_O2CLGrIWzsVnZ_HM0[]
+* link:https://www.spiegel.de/geschichte/wilhelm-conrad-roentgen-das-leiden-der-strahlen-pioniere-a-1061130.html[]
