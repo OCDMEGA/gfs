@@ -7,12 +7,20 @@
 ====
 
 == Einordnung
-
 * ionisierend (kann Atome oder Moleküle ionisieren) 
 (<<gloss-ionisieren,Definition Ionisieren>>)
-* ähnelt Gammastrahlung aber energieärmer
+* ähnelt Gammastrahlung aber energieärmer 
 * hohes Durchdringungsvermögen
 * kann weder durch elektrische noch magnetische Kräfte abgelenkt werden (elektromagnetisch)
+* Wellen: 
+. Breiten sich aus mit Ausbreitungschgeschwindigkeit c
+. Besitzen Frequenz f und Wellenlänge λ 
+. Zusammenhang c=λ*f
+. Bei elektromagnetischer Strahlung beträgt c Lichtgeschwindigkeit
+. Bei elektromagnetischer Strahlung gilt: h(Planksches Wirkungsquantum)und Frequenz f bestimmen die energie der Strahlung (E=h*f)
+. Strahlung mit kurzer Wellenlänge hat eine hohe Frequenz und (z.B. Gammastrahlung) hat somit eine hohe Energie
+. In diesem Fall (EM) ist die Frequenz somit antiproportional zur Wellenlänge
+. Alles nachweisbar durch Messungen des Fotoeffekts (Lichtstrahlung regt Elektronen an und lässt sie aus dem Material austreten, je höher die Energie der Strahlung desto mehr Elektronen können austreten) 
 
 == Entdeckung
 * 8. November 1895
