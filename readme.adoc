@@ -212,3 +212,6 @@ Querschnittbild Röntgenaufnahme:: Eine Methode, welche CT benutzt, um ein 2d Bi
 [[src-thm-charakteristische-strahlung]]
 * link:https://www.thm.de/mni/forschung/institute-gruppen/imps/imps-strahlung-information/radiologie/grundlagen/elektromagnetische-strahlung.html#charakteristische_strahlung[]
 * link:https://www.physik.uni-wuerzburg.de/ueber-uns/fakultaetsgeschichte/nobelpreistraeger/wilhelm-conrad-roentgen/[]
+
+=== Bilder
+* link:https://www.dhm.de/lemo/biografie/wilhelm-conrad-roentgen[]
